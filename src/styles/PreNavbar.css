@@ -9,9 +9,9 @@
     padding: 0 4vmax;
     display: flex;
     align-items: center;
-}
+ }
 
-.preNav > div >span{
+ .preNav > div >span{
     color: rgba(180, 180, 180, 0.644);
     font-size: 0.8vmax;
     font-weight: 100;
