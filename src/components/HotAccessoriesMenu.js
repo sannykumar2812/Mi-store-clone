@@ -1,15 +1,15 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+// import {a} from "react-router-dom"
 import "../styles/HotAccessoriesMenu.css"
 
 const HotAccessoriesMenu = () => {
     return (
         <div className="HotAccessoriesMenu">
-            <Link className="HotAccessoriesLink" to="/music">Music Store</Link>
-            <Link className="HotAccessoriesLink" to="/smartDevice">Smart Devices</Link>
-            <Link className="HotAccessoriesLink" to="/home">Home</Link>
-            <Link className="HotAccessoriesLink" to="/lifestyle">Lifestyle</Link>
-            <Link className="HotAccessoriesLink" to="/mobileAccessories">Mobile Accessories</Link>
+            <a className="HotAccessoriesLink" href="/music">Music Store</a>
+            <a className="HotAccessoriesLink" href="/smartDevice">Smart Devices</a>
+            <a className="HotAccessoriesLink" href="/home">Home</a>
+            <a className="HotAccessoriesLink" href="/lifestyle">Lifestyle</a>
+            <a className="HotAccessoriesLink" href="/mobileAccessories">Mobile Accessories</a>
             
         </div>
     )

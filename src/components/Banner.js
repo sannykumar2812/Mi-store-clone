@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Banner = ({banner}) => {
     return (
-     
- <Carousel fade  >
+    
+<Carousel fade  >
 
  {banner.end.map((item,index)=>(
     
